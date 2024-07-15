@@ -203,22 +203,27 @@
         width: 100%;
         margin-bottom: 5vw;
     }
+   .page2 h4 { 
+    margin-bottom: 8vw; 
+}
 
     .page2 h1 {
         line-height: 13vw;
     }
 
     .page2 p {
-        z-index: 9;
-        position: absolute;
-        right: 5vw;
-        display: flex;
-        width: 50%;
-        font-size: 2.2vw;
-        color: #363535;
-        margin-top: 4vw;
-        text-align: end;
-    }
+    z-index: 9;
+    position: absolute;
+    right: 5vw;
+    display: flex;
+    width: 50%;
+    font-size: 2.2vw;
+    color: #363535;
+    margin-top: 4vw;
+    margin-bottom: 9vw; /* Added margin-bottom */
+    text-align: end;
+}
+
  
     .text .before {
         font-size: 24vw;
